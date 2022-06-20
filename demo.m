@@ -1,0 +1,12 @@
+fs = 24414.0625;
+dur = 0.020;
+time = 0: (1/fs): dur-(1/fs);
+td = 0.0;
+tau = dur/10;
+v = (time > td).*(time-td)/tau;
+v = v.*exp(-1.*v + 1);
+% tau1 = dur/40;
+% tau2 = dur/20;
+% k = 1;
+% v = k.*(exp(-time./tau1) - exp(-time./tau2));
+plot(time, v);
