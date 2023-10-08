@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CEDResources App="Spike2" AppVer="1001">
+	<DocRes>
+		<View InfBkCR="0">
+			<WPlace flags="2" showc="3" minx="-1" miny="-1" maxx="-8" maxy="-31" t="156" b="788" l="156" r="2430" />
+			<Font hgt="-11" hthou="-115" wgt="400" paf="16" fnam="Times New Roman" />
+			<Chan Chan="0" DMode="2" DWidth="-1" DDSize="-1" DError="1" AxMin="-0.48342132568359375" AxMax="0.48052215576171875" AdcAxMin="-0.48342132568359375" AdcAxMax="0.48052215576171875" AxType="1" ChType="127" BackOv="0">
+				<FitParam DrawFR="1" ShowF="0">
+					<c id="0" />
+					<c id="1" />
+					<c id="2" />
+				</FitParam>
+			</Chan>
+			<XInfo Right="0.9999999999999998" XAxSmall="5" CRBack="0" VCLabMode="2" HCLabMode="1" />
+			<ChOrder Chans="1">
+				<c id="0" />
+			</ChOrder>
+			<CursVals />
+			<CursRegs />
+		</View>
+	</DocRes>
+</CEDResources>
